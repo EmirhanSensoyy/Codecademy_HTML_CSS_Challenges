@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.header {
+    margin: auto;
+    width: 70%;
+    height:max-content;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.box p {
+    font-weight: bold;
+    font-size: 2em;
+    padding-right: 4em;
+}
+p {
+    font-size:large;
+    color: #393e46;
+}
+.container {
+    text-align: center;
+}
+.container input {
+    margin: 10px 5px 20px 30px;   
+}
+select {
+    padding: 5px;
+    margin: 10px 5px 20px 30px;   
+    text-align: center;
+}
+select:hover {
+    background-color: green;
+    color: whitesmoke;
+}
+.submit {
+    background-color: #EE4878;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 12px 32px;
+    width: 200px;
+    border: 2px;
+    color: white;
+}

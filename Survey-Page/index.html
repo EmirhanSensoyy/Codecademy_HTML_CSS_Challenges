@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Starting -->
+    <div class="header">
+        <div class="box">
+            <p>Social Media Survey</p>
+            <img src="image.gif" alt="image" height="200" width="200">
+        </div>
+        <hr>
+        <!-- Content -->
+        <div class="container">
+           
+            <p>Which of the social media accounts do you currently use?</p>
+                <form action="index.html" method="post">
+                    
+                <input type="checkbox" name="instagram" id="instagram">
+                <label for="instagram">Instagram</label>
+
+                <input type="checkbox" name="twitter" id="twitter">
+                <label for="twitter">Twitter</label>
+
+                <input type="checkbox" name="linkedin" id="linkedin">
+                <label for="linkedin">LinkedIn</label>
+                  
+                <input type="checkbox" name="otherplatform" id="otherplatform">
+                <label for="other">Other</label>
+
+             <p>Why are you using it ? :</p>
+                    
+                <input type="checkbox" name="safety" id="safety">
+                <label for="instagram">Safety</label>
+
+                <input type="checkbox" name="enjoyable" id="enjoyable">
+                <label for="twitter">Enjoyable</label>
+
+                <input type="checkbox" name="informative" id="informative">
+                <label for="linkedin">Informative</label>
+                  
+                <input type="checkbox" name="other" id="other">
+                <label for="other">Other</label>       
+            
+            <p>How often do you check your social media account?</p>
+
+                    <input type="radio" name=time" id="time" value="Hourly">Hourly
+                    <input type="radio" name=time" id="time" value="Daily">Daily
+                    <input type="radio" name=time" id="time" value="Hourly">Once in 2-3 days
+                    <input type="radio" name=time" id="time" value="Daily">Once a week <br>
+                
+                    <br>
+
+                    <label for="job">What is your job: </label>
+                    <select name="job" id="job">
+                        <option value="" disabled selected>Select your Job</option>
+                        <option value="">Programmer</option>
+                        <option value="">Graphics Designer</option>
+                        <option value="">Social Media Expert</option>
+                    </select>
+                    <br>
+                    <hr>
+                    <!-- Submit Button -->
+                    <input type="submit" class="submit" value="Submit" />
+                </form>
+        </div>  
+    </div>
+</body>
+</html>
